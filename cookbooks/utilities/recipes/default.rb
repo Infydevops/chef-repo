@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-set MESSAGE = 'Hello from Chef'
-execute 'print value of environment variable %MESSAGE% ' do
-command 'echo %MESSAGE% > c:\chef\temp\message.txt'
+file 'hello.txt' do
+ content 'Welcome To Chef'
+ content 'This is my second line'
 end
