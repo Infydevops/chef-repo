@@ -10,4 +10,5 @@
 file 'hello.txt' do
  content 'Welcome To Chef'
  content 'This is my second line'
+  content 'This is my Third line'
 end
